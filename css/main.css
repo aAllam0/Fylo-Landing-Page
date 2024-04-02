@@ -32,6 +32,8 @@ ul {
 }
 .container {
   padding: 0 4rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 .error {
   font-size: 0.9rem;
