@@ -31,7 +31,7 @@ ul {
   margin: 0;
 }
 .container {
-  padding: 2rem 4rem;
+  padding: 0 4rem;
 }
 .error {
   font-size: 0.9rem;
@@ -40,6 +40,9 @@ ul {
   margin-top: 5px;
 }
 /* End Global */
+header {
+  padding: 2rem 0;
+}
 header .container {
   display: flex;
   justify-content: space-between;
@@ -59,7 +62,7 @@ header ul a {
 }
 @media (max-width: 767px) {
   .container {
-    padding: 1rem;
+    padding: 0 1rem;
   }
   header img {
     width: 68px;
